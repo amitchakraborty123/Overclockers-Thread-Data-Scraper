@@ -1,5 +1,5 @@
 
-# Infobloom Article Scraper
+# Overclockers Forum Thread Data Scraper
 
 This script based on property data scrap from https://forums.overclockers.co.uk/
 
@@ -27,8 +27,11 @@ This script based on property data scrap from https://forums.overclockers.co.uk/
 ```bash
 python infobloom.py
 ```
-- Before run the script you need to put your category links on my given url.xlsx file. I already put some category links, you can remove or add links on there.
-- After run the script, It will automaticaly go through all categories and scrap the data. Save the data in a CSV file.
+- After run the script it will ask you to input a thread link. You need to input a thread link and hit enter:
+  Ex: https://forums.overclockers.co.uk/threads/the-all-new-all-fresh-random-image-thread.18769671/
+- After input that link it will ask you how many pages do you want to scrap. You need to input your expected last page number and hit enter.
+  Ex: 65
+- After that It will automaticaly go through all of your pages and scrap the data. Save the data in a CSV file.
 
 
 ## 🔗 Social Links
